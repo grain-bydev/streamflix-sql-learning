@@ -178,18 +178,18 @@ Chaque fichier `.sql` contient :
 
 ### Projet
 ```
-ultra-airway-475009-m6
+<ton-projet-id>
 ```
 
 ### Dataset
 ```
-ultra-airway-475009-m6.streamflix
+<ton-dataset-name>
 ```
 
 ### Connexion
 ```sql
 -- Référencer les tables avec le chemin complet
-SELECT * FROM `ultra-airway-475009-m6.streamflix.users` LIMIT 5;
+SELECT * FROM <ton-projet-id>.<ton-dataset-name>.users` LIMIT 5;
 ```
 
 ---
